@@ -1,0 +1,3 @@
+[submodule "fdx/vendor/evil"]
+	path = fdx/vendor/evil
+	url = https://github.com/emacs-evil/evil
