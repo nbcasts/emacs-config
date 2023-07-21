@@ -1359,7 +1359,8 @@ Toggle window splits between vertical and horizontal splits
 *** Line numbers
 
 #+begin_src emacs-lisp
-  (global-display-line-numbers-mode 1)
+  (global-display-line-numbers-mode 0)
+  (display-line-numbers-mode 0)
 #+end_src
 
 *** Highlight current line
