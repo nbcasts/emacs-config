@@ -20,9 +20,10 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(ccm-vpos-init '(round (* 21 (ccm-visible-text-lines)) 34))
+ '(ccm-vpos-inverted -1)
  '(connection-local-criteria-alist
    '(((:application tramp)
-      tramp-connection-local-default-system-profile tramp-connection-local-default-shell-profile)) t)
+      tramp-connection-local-default-system-profile tramp-connection-local-default-shell-profile tramp-connection-local-default-profile)) t)
  '(connection-local-profile-alist
    '((tramp-connection-local-darwin-ps-profile
       (tramp-process-attributes-ps-args "-acxww" "-o" "pid,uid,user,gid,comm=abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" "-o" "state=abcde" "-o" "ppid,pgid,sess,tty,tpgid,minflt,majflt,time,pri,nice,vsz,rss,etime,pcpu,pmem,args")
@@ -101,6 +102,7 @@
  '(git-commit-fill-column 1000)
  '(git-commit-finish-query-functions nil)
  '(git-commit-summary-max-length 1000)
+ '(ispell-dictionary nil)
  '(org-agenda-files '("/data/second-brain/12_week_year.org"))
  '(package-selected-packages
    '(emmet-mode noflet mermaid-mode org-roam-ui code-review github-review forge ripgrep wgrep-ag wgrep edit-indirect xterm-color nov multi-vterm vterm org-roam rubocop typescript-mode company-tabnine org-bullets multiple-cursors company lsp-mode which-key idle-highlight-mode yaml-mode dockerfile-mode countdown expand-region fill-column-indicator vlf whitespace-cleanup-mode slim-mode highlight-indent-guides indent-guide adoc-mode web-mode undo-tree centered-cursor-mode yasnippet ruby-refactor ruby-electric minitest rspec-mode rvm try centered-window auto-package-update use-package))
@@ -116,7 +118,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Inconsolata" :slant normal :weight normal :height 130 :width normal))))
+ '(default ((t (:family "Inconsolata" :slant normal :weight normal :height 260 :width normal))))
  '(font-lock-comment-face ((t (:foreground "dark gray"))))
  '(fringe ((t (:background "#000000"))))
  '(hl-line ((t (:extend t :background "gray20"))))
