@@ -111,7 +111,7 @@ Reload file with =<f5>=
                           ;; :foundry "unknown"
                           :slant normal
                           :weight normal
-                          :height ,200
+                          :height ,260
                           :width normal)))))
 #+end_src
 
